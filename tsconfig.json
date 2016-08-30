@@ -9,5 +9,6 @@
         "removeComments": false,
         "noImplicitAny": false
     },
-    "compileOnSave": false
+    "compileOnSave": false,
+    "buildOnSave": false
 }

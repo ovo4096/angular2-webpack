@@ -2,11 +2,9 @@
   "name": "angular2-webpack-starter",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\"  ",
+    "start": "webpack-dev-server --no-info --progress --inline --content-base src/",
     "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "build": "rimraf dist && webpack"
   },
   "license": "ISC",
   "dependencies": {
@@ -28,7 +26,10 @@
   },
   "devDependencies": {
     "concurrently": "^2.2.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.24.0",
     "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^1.3.2",

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: Aquamarine;
+}
