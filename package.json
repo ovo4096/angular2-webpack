@@ -2,7 +2,7 @@
   "name": "angular2-webpack-starter",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --no-info --progress --inline --content-base src/",
+    "start": "webpack-dev-server --progress --inline --content-base src/",
     "postinstall": "typings install",
     "build": "rimraf dist && webpack"
   },
