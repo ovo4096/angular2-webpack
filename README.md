@@ -1,6 +1,6 @@
 # angular2-webpack
 
-本仓库是对应 angular2 官方 quick start 教程的 webpack 版本，但是删除官方当前推荐的联合测试工具
+本仓库是对应 angular2 官方 quick start 教程的 webpack 版本，但是删除官方当前推荐的单元测试工具
 
 ## 安装
 
